@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 96.5%;
+    --background: 45 100% 96%;
     --foreground: 0 0% 20%;
 
     --card: 0 0% 100%;
@@ -15,16 +15,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 20%;
 
-    --primary: 199 89% 48%;
+    --primary: 340 100% 70%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 11% 96%;
+    --secondary: 45 100% 62%;
     --secondary-foreground: 0 0% 20%;
 
-    --muted: 210 11% 96%;
+    --muted: 45 100% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 199 89% 48%;
+    --accent: 140 50% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,9 +32,9 @@
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 199 89% 48%;
+    --ring: 340 100% 70%;
 
-    --radius: 0.25rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
